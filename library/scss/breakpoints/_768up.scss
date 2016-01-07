@@ -24,14 +24,18 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 760px;
+	// width: 760px;
 }
 
 /*********************
 HEADER STYLES
 *********************/
 
-.header {}
+.header {
+	h1 {
+		
+	}
+}
 
 	#logo {}
 
@@ -41,8 +45,8 @@ NAVIGATION STYLES
 
 .nav {
 	border: 0;
+	float: right;
 	ul {
-		background:$black;
 		margin-top:0;
 	}
 	li {

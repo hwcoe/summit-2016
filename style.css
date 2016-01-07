@@ -1,15 +1,18 @@
 /******************************************************************
-Theme Name: Bones (Rename Me!)
-Theme URI: http://www.themble.com/bones
-Description: This site was built using the Bones Development Theme. For more information about Bones or to view documentation, you can visit the <a href="https://github.com/eddiemachado/bones/issues" title="Bones Issues">Bones Issues</a> page on Github. You'll want to customize this for your clients with your own information.
-Author: Your Name Here
-Author URI: http://www.yoururlhere.com
+Theme Name: COE Starter Theme
+Theme URI: http://www.eng.ufl.edu
+Description: Starter theme for Herbert Wertheim College of Engineering sites.
+Author: Herbert Wertheim College of Engineering
+Author URI: https://www.eng.ufl.edu
 Version: 1.7
-Tags: fluid-layout, responsive-layout, accessibility-ready, translation-ready, microformats, rtl-language-support
 
-License: WTFPL
-License URI: http://sam.zoy.org/wtfpl/
-Are You Serious? Yes.
+License: MIT
+License URI: https://tldrlegal.com/license/mit-license
+------------------------------------------------------------------
+
+Styles are here: /library/css/style.css
+Compiled from here: /library/scss/style.scss
+This theme was developed using the Bones development theme http://themble.com/bones/
 
 
 MAKE SURE TO READ BELOW BEFORE GETTING STARTED FOR THE FIRST TIME!
