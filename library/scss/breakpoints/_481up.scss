@@ -28,8 +28,12 @@ HEADER STYLES
 
 .header {
 	h1 {
-		font-size:1.5em;
-		letter-spacing:1px;
+		font-size: 1.25em;
+		letter-spacing: 1px;
+	}
+	#logo {
+		// margin: 0.75em 0;
+		margin: 0;
 	}
 }
 
@@ -37,59 +41,32 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 
-.nav {}
-
-	/* .menu is clearfixed inside mixins.scss */
-	.menu {
-		ul {
-			li {
-				a {
-
-					/*
-					you can use hover styles here even though this size
-					has the possibility of being a mobile device.
-					*/
-					&:hover, &:focus {
-
-					}
-				}
-
-				&:first-child {}
-				&:last-child {}
-
-				/*
-				plan your menus and drop-downs wisely.
-				*/
-				ul.sub-menu,
-				ul.children {
-					li {
-						a {
-							&:hover,
-							&:focus {}
-							&:link {}
-						}
-						&:first-child {}
-						&:last-child {}
-					}
-				}
-			} /* end .menu ul li */
-
-			/* highlight current page */
-			li.current-menu-item,
-			li.current_page_item,
-			li.current_page_ancestor {
-				a {}
-			}  /* end current highlighters */
-		} /* end .menu ul */
-	} /* end .menu */
+.block-nav {
+	div {
+		width: 50%;
+	}
+}
 
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+.summit-bg {
+	background: url('../images/summit2016-bg.jpg') no-repeat bottom center $off-white;
+	height: 30px; 
+}
+.single-item {
+	clear:both;
+}
 
+.profile {
+	img {
+		max-width: 150px !important;
+	}
+}
 /* entry content */
 .entry-content {
 
+	padding: 0 1.5em;
 
 	/* at this larger size, we can start to align images */
 	.alignleft, img.alignleft {
@@ -108,6 +85,17 @@ POSTS & CONTENT STYLES
 		display: block;
 		clear: both;
 	}
+	// agenda section styles
+	.event-calendar {	
+		time {
+			display: inline-block;
+			width: 31%;
+		}		
+		.event-description {
+			display: inline-block;
+			width: 60%;
+		}
+	}
 
 } /* end .entry-content */
 
@@ -124,4 +112,8 @@ do they need tweaking?
 		li {}
 	}
 } /* end .footer-links */
+
+.wordmark {
+	max-width: 460px;
+}
 

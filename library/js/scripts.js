@@ -114,7 +114,20 @@ jQuery(document).ready(function($) {
    * Let's fire off the gravatar function
    * You can remove this if you don't need it
   */
-  loadGravatars();
+  // loadGravatars();
+
+  // smooth scrolling to anchors
+  $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop':  $target.offset().top //no need of parseInt here
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+
 
 
 }); /* end of as page load scripts */

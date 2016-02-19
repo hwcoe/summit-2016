@@ -18,16 +18,18 @@ http://0to255.com/
 *********************/
 
 $blue:              #00386b;
-$orange:			#ef4023;
+$orange:			#FF4A00;
+$teal:				#a1dced;
 
 $link-color:        $orange;
 $link-hover:        lighten($link-color, 20%);
 
 $black:             #323944;
 $white:             #fff;
+$off-white:			#e5efe0;
 
-$light-gray:        #f8f9fa;
 $gray:              #eaedf2;
+$light-gray:        lighten($gray, 20%);
 $text-color:        #333333;
 $meta-gray:         #9fa6b4;
 
