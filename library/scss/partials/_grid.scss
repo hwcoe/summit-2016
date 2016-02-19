@@ -37,6 +37,12 @@ over your project's layout.
   padding-right: 0 !important;
 }
 
+// for center aligned column
+.aligncenter {
+  float:none !important;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*
 Mobile Grid Styles

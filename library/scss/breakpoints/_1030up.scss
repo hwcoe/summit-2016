@@ -8,7 +8,38 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+body.admin-bar {
+	.header {
+  		top: 32px;
+  	}
+ }
+.header {
+	h1 {
+		// left: 130px;
+		left: 100px;
+	}
+}
+.summit-hero {
+	// background: url('../images/summit2016-bg-hero.jpg') no-repeat center center $off-white;
+	background-size: initial;
+	height: 378px; 
+}
 
-.wrap {
-  // width: 1040px;
+.block-nav {
+	font-size: 0.75em;
+	div {
+		width: 16.6666666667%;
+	}
+}
+.hentry header, .hentry footer, .entry-content {
+		// padding: 1.5em 3em 0;
+	}
+
+.highlight-content {
+	h3 {
+		font-size: 2em;
+	}
+	// div {
+	// 	width: 33.3333333%;
+	// }
 }
